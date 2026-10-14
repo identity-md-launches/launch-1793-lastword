@@ -1,0 +1,10 @@
+{
+  "kind": "evm_contracts",
+  "contracts": [
+    {
+      "contract": "LastWord",
+      "constructorArgs": ["$owner"]
+    }
+  ],
+  "notes": "LastWord is the public billboard implemented in src/LastWord.sol. Its sole constructor argument sets the immutable owner; $owner resolves to the approved creator wallet 0xb77161bbaf98470c6c5101899d30df413f9a019d. Posting starts free with a 10-minute per-wallet cooldown. The token slot begins unset and can be connected once by the owner when the project's token is available. LastWord retains the latest 50 messages and tracks total tokens burned."
+}
